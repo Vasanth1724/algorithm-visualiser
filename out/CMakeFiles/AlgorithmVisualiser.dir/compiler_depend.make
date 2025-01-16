@@ -965,6 +965,7 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternalLegacy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/TargetConditionals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/___wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/__xlocale.h \
@@ -1917,8 +1918,107 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Window/window.hpp
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Window/window.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Config.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Clock.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Err.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Export.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/FileInputStream.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/InputStream.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Lock.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/MemoryInputStream.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Mutex.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/NonCopyable.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Sleep.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocal.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Time.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.inl \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Clipboard.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Context.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/ContextSettings.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Cursor.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Event.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Export.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/GlResource.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Joystick.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Keyboard.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Mouse.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Sensor.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Touch.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/VideoMode.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Vulkan.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Window.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowBase.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowHandle.hpp \
+  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowStyle.hpp
 
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowStyle.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowHandle.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Vulkan.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/VideoMode.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Touch.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Keyboard.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Export.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Event.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/ContextSettings.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Context.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.inl:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.inl:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocal.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.inl:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.inl:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/NonCopyable.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Mutex.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/MemoryInputStream.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Lock.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/InputStream.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/FileInputStream.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Export.hpp:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Clock.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/TargetConditionals.h:
 
 /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Window/window.hpp:
 
@@ -1979,6 +2079,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.inl:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_char.h:
 
@@ -2288,6 +2390,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
@@ -2337,6 +2441,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Mouse.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_array.h:
 
@@ -2411,6 +2517,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/conditional.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Sensor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/fold.h:
 
@@ -2674,6 +2782,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Clipboard.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/identity.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
@@ -2710,6 +2820,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Config.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__math/fdim.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
@@ -2740,9 +2852,13 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Cursor.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/is_transparent.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.inl:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
 
@@ -2858,6 +2974,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Time.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
@@ -2959,6 +3077,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/permutable.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/ordering.h:
 
@@ -3238,6 +3358,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Window.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/xlocale/_stdio.h:
@@ -3320,6 +3442,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_endian.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/countl.h:
@@ -3367,6 +3491,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/pstl_any_all_none_of.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Err.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
@@ -3439,6 +3565,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/common_type.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/GlResource.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
 
@@ -3520,6 +3648,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_contains.h:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Joystick.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_blksize_t.h:
@@ -3556,6 +3686,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstddef:
 
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
@@ -3573,6 +3705,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/add_const.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
@@ -3659,6 +3793,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_mb_cur_max.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowBase.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
@@ -3811,6 +3947,8 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/id.h:
+
+/opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Sleep.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_printf.h:
 

@@ -2,7 +2,8 @@
 #include "Window/window.hpp"
 
 int main() {
-    ApplicationWindow window(800, 6800);
+    ApplicationWindow mainApplicationWindow(800, 600, "Algorithm Visulaiser");
+    mainApplicationWindow.createWindow();
     return 0;
 }
  
