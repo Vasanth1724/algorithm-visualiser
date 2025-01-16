@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Window/window.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    ApplicationWindow window(800, 6800);
     return 0;
 }
+ 
