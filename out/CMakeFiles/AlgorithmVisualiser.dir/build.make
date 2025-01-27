@@ -86,10 +86,24 @@ CMakeFiles/AlgorithmVisualiser.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgorithmVisualiser.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/syrux/Desktop/Code/AlgorithmVisualiser/main.cpp -o CMakeFiles/AlgorithmVisualiser.dir/main.cpp.s
 
+CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o: CMakeFiles/AlgorithmVisualiser.dir/flags.make
+CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o: /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Bar/bar.cpp
+CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o: CMakeFiles/AlgorithmVisualiser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/syrux/Desktop/Code/AlgorithmVisualiser/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o -MF CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o.d -o CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o -c /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Bar/bar.cpp
+
+CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Bar/bar.cpp > CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.i
+
+CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Bar/bar.cpp -o CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.s
+
 CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: CMakeFiles/AlgorithmVisualiser.dir/flags.make
 CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Window/window.cpp
 CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: CMakeFiles/AlgorithmVisualiser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/syrux/Desktop/Code/AlgorithmVisualiser/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/syrux/Desktop/Code/AlgorithmVisualiser/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o -MF CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o.d -o CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o -c /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Window/window.cpp
 
 CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.i: cmake_force
@@ -103,23 +117,25 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.s: cmake_force
 # Object files for target AlgorithmVisualiser
 AlgorithmVisualiser_OBJECTS = \
 "CMakeFiles/AlgorithmVisualiser.dir/main.cpp.o" \
+"CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o" \
 "CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o"
 
 # External object files for target AlgorithmVisualiser
 AlgorithmVisualiser_EXTERNAL_OBJECTS =
 
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/main.cpp.o
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/build.make
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: /opt/homebrew/Cellar/sfml@2/2.6.2/lib/libsfml-graphics.dylib
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: /opt/homebrew/Cellar/sfml@2/2.6.2/lib/libsfml-window.dylib
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: /opt/homebrew/Cellar/sfml@2/2.6.2/lib/libsfml-system.dylib
-/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/syrux/Desktop/Code/AlgorithmVisualiser/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser"
+bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/main.cpp.o
+bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o
+bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o
+bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/build.make
+bin/AlgorithmVisualiser: /Users/syrux/Desktop/Code/AlgorithmVisualiser/lib/libsfml-graphics.dylib
+bin/AlgorithmVisualiser: /Users/syrux/Desktop/Code/AlgorithmVisualiser/lib/libsfml-window.dylib
+bin/AlgorithmVisualiser: /Users/syrux/Desktop/Code/AlgorithmVisualiser/lib/libsfml-system.dylib
+bin/AlgorithmVisualiser: CMakeFiles/AlgorithmVisualiser.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/syrux/Desktop/Code/AlgorithmVisualiser/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/AlgorithmVisualiser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlgorithmVisualiser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/AlgorithmVisualiser.dir/build: /Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser
+CMakeFiles/AlgorithmVisualiser.dir/build: bin/AlgorithmVisualiser
 .PHONY : CMakeFiles/AlgorithmVisualiser.dir/build
 
 CMakeFiles/AlgorithmVisualiser.dir/clean:

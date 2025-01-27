@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser"
-  "/Users/syrux/Desktop/Code/AlgorithmVisualiser/bin/AlgorithmVisualiser.pdb"
   "CMakeFiles/AlgorithmVisualiser.dir/main.cpp.o"
   "CMakeFiles/AlgorithmVisualiser.dir/main.cpp.o.d"
+  "CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o"
+  "CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o.d"
   "CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o"
   "CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o.d"
+  "bin/AlgorithmVisualiser"
+  "bin/AlgorithmVisualiser.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

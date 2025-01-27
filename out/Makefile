@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmVisualiser.dir/build.make CMakeFiles/AlgorithmVisualiser.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Bar/bar.o: src/Bar/bar.cpp.o
+.PHONY : src/Bar/bar.o
+
+# target to build an object file
+src/Bar/bar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmVisualiser.dir/build.make CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.o
+.PHONY : src/Bar/bar.cpp.o
+
+src/Bar/bar.i: src/Bar/bar.cpp.i
+.PHONY : src/Bar/bar.i
+
+# target to preprocess a source file
+src/Bar/bar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmVisualiser.dir/build.make CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.i
+.PHONY : src/Bar/bar.cpp.i
+
+src/Bar/bar.s: src/Bar/bar.cpp.s
+.PHONY : src/Bar/bar.s
+
+# target to generate assembly for a file
+src/Bar/bar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlgorithmVisualiser.dir/build.make CMakeFiles/AlgorithmVisualiser.dir/src/Bar/bar.cpp.s
+.PHONY : src/Bar/bar.cpp.s
+
 src/Window/window.o: src/Window/window.cpp.o
 .PHONY : src/Window/window.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Bar/bar.o"
+	@echo "... src/Bar/bar.i"
+	@echo "... src/Bar/bar.s"
 	@echo "... src/Window/window.o"
 	@echo "... src/Window/window.i"
 	@echo "... src/Window/window.s"

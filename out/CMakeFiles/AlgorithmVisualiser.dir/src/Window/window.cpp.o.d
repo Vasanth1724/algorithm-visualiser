@@ -1,6 +1,5 @@
 CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: \
   /Users/syrux/Desktop/Code/AlgorithmVisualiser/src/Window/window.cpp \
-  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Window/window.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \
@@ -957,49 +956,84 @@ CMakeFiles/AlgorithmVisualiser.dir/src/Window/window.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Config.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Config.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/TargetConditionals.h \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Clock.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Export.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Time.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Err.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/FileInputStream.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/InputStream.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/NonCopyable.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Lock.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/MemoryInputStream.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Mutex.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Sleep.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Utf.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/String.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Thread.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocal.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/ThreadLocalPtr.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector2.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/System/Vector3.inl \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Clipboard.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Export.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Context.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/GlResource.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/ContextSettings.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Cursor.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Event.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Joystick.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Keyboard.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Mouse.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Sensor.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Touch.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/VideoMode.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Window.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowBase.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/Vulkan.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowHandle.hpp \
-  /opt/homebrew/Cellar/sfml@2/2.6.2/include/SFML/Window/WindowStyle.hpp
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Clock.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Export.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Time.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Err.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/FileInputStream.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/InputStream.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/NonCopyable.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Lock.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/MemoryInputStream.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Mutex.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Sleep.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/String.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Utf.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Utf.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/String.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Thread.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Thread.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/ThreadLocal.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/ThreadLocalPtr.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/ThreadLocalPtr.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Vector2.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Vector2.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Vector3.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/System/Vector3.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Clipboard.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Export.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Context.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/GlResource.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/ContextSettings.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Cursor.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Event.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Joystick.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Keyboard.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Mouse.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Sensor.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Touch.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/VideoMode.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Window.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/WindowBase.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/Vulkan.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/WindowHandle.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Window/WindowStyle.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/BlendMode.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Export.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/CircleShape.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Shape.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Drawable.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/RenderStates.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Transform.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Rect.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Rect.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Transformable.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/VertexArray.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Vertex.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Color.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/ConvexShape.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Font.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Glyph.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Texture.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Image.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/RectangleShape.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/RenderTarget.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/View.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/RenderTexture.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/RenderWindow.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Shader.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Glsl.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Glsl.inl \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Sprite.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/Text.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/SFML/Graphics/VertexBuffer.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Window/window.hpp \
+  /Users/syrux/Desktop/Code/AlgorithmVisualiser/include/Bar/bar.hpp
