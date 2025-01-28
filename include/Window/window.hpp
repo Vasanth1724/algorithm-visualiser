@@ -6,7 +6,7 @@ class ApplicationWindow {
     public:
         ApplicationWindow(int width, int height, const char* title);
         void createWindow();
-        void drawBar();
+        
 
 
     private:

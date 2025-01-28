@@ -22,13 +22,15 @@ void ApplicationWindow::createWindow() {
         window.clear(sf::Color::White);
 
         // Draw here
-
+        Bar single_bar(100, 100, 100, 100);
+        window.draw(single_bar.getBar());
+        
         window.display(); 
     }
 
     std::cout << "Window created with width: " << width << " and height: " << height << std::endl;
 }
 
-void ApplicationWindow::drawBar() {
-    Bar bar(100, 100);
-}
+// void ApplicationWindow::drawBar() {
+//     Bar bar(100, 100, 100, 100);
+// }
