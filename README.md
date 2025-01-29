@@ -1,5 +1,8 @@
 # Algorithm Visualiser
 ## To Build
+Download and copy the required static and dynamic libararies from SFML
+
+
 Create an output file and run cmake
 ```
 mkdir out && cd out

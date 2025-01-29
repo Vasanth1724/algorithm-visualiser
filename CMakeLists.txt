@@ -16,10 +16,26 @@ file(GLOB_RECURSE SOURCES
 
 add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
 
-target_link_libraries(${PROJECT_NAME}
-    ${SFML_LIB_DIR}/libsfml-graphics.dylib
-    ${SFML_LIB_DIR}/libsfml-window.dylib
-    ${SFML_LIB_DIR}/libsfml-system.dylib
-)
+if (APPLE)
+    target_link_libraries(${PROJECT_NAME}
+        ${SFML_LIB_DIR}/libsfml-graphics.dylib
+        ${SFML_LIB_DIR}/libsfml-window.dylib
+        ${SFML_LIB_DIR}/libsfml-system.dylib
+    )
+elseif (WIN32)  
+    target_link_libraries(${PROJECT_NAME}
+        ${SFML_LIB_DIR}/sfml-graphics.a
+        ${SFML_LIB_DIR}/sfml-window.a
+        ${SFML_LIB_DIR}/sfml-system.a
+    )
+    add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy   
+        ${SFML_LIB_DIR}/sfml-graphics-2.dll
+        ${SFML_LIB_DIR}/sfml-window-2.dll
+        ${SFML_LIB_DIR}/sfml-system-2.dll
+        $<TARGET_FILE_DIR:${PROJECT_NAME}>
+    )
 
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/out/bin)
+endif()
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/bin)

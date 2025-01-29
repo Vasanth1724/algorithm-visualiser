@@ -1,0 +1,3 @@
+/Users/syrux/Desktop/Code/AlgorithmVisualiser/build/CMakeFiles/AlgorithmVisualiser.dir
+/Users/syrux/Desktop/Code/AlgorithmVisualiser/build/CMakeFiles/edit_cache.dir
+/Users/syrux/Desktop/Code/AlgorithmVisualiser/build/CMakeFiles/rebuild_cache.dir
